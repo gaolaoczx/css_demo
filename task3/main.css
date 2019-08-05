@@ -3,14 +3,13 @@ body
     font-size: 62.5%;
     padding: 0rem;
     margin: 0rem;
+    background-color: rgb(104, 205, 213);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",SimSun, sans-serif;
 }
 
 .container
 {
-    background-color: rgb(104, 205, 213);
     position: relative;  
-    height: 100vh;
 }
 
 .back
@@ -44,7 +43,6 @@ body
     position: absolute;
     top: 18rem;
     width: 100vw;
-    text-align: center;
 }
 
 .intro_text
