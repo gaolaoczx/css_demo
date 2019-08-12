@@ -126,7 +126,6 @@ body
     padding: 10px 5px;
     margin: 0px;
     border-bottom: 1px solid #eee;
-    display: flex;
     position: relative;
     height: 90px;
 }
