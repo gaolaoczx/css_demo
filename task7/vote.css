@@ -73,7 +73,6 @@ body
 .container
 {
     /* height: calc(100vh - 45px); */
-    height: calc(100vh - 100px);
     background-color: rgb(41, 189, 224);
 }
 
@@ -116,6 +115,12 @@ body
     margin: 10px 0px 10px 42px;
     font-size: 14px;
     color: rgb(230, 244, 248);
+}
+
+.uers-list
+{
+    width: 100vw;
+    height: 90vw; /* 撑开高度 */
 }
 
 .user
@@ -166,41 +171,43 @@ body
     height: 5vw;
 }
 
-/* 
-.user-kill
-{
-    width: calc(30px*0.5); 
-    height: calc(30px*0.5);
-    background: url('img/task7.png') calc(-328px*0.5) calc(-234px*0.5);
-    background-size: calc(417px*0.5) calc(393px*0.5); 
-}
-
-.user-search
-{
-    width: calc(30px*0.5); 
-    height: calc(30px*0.5);
-    background: url('img/task7.png') calc(-60px*0.5) calc(-353px*0.5);
-    background-size: calc(417px*0.5) calc(393px*0.5); 
-}
-
-.user-target
-{
-    width: calc(30px*0.5); 
-    height: calc(30px*0.5);
-    background: url('img/task7.png') calc(-110px*0.5) calc(-353px*0.5);
-    background-size: calc(417px*0.5) calc(393px*0.5); 
-}
-
-.user-rescue
-{
-    width: calc(30px*0.5); 
-    height: calc(30px*0.5);
-    background: url('img/task7.png') calc(-10px*0.5) calc(-353px*0.5);
-    background-size: calc(417px*0.5) calc(393px*0.5); 
-} */
-
 .user:hover .user-option
 {
     display: block;
 }
 
+.bar-block
+{
+    float: left; 
+    width: 20vw;
+    height: 1vw;
+    margin: 6vw 5.3vw 0px 5.3vw;
+    background-color: rgb(245,201,123);
+    border: 1vw solid white;
+    border-bottom: 0px;
+}
+
+.small
+{
+    margin-right: calc(5.3vw - 6px);
+}
+
+.bar
+{
+    margin: 8vw 0vw 5vw 5.33vw;
+    width: 87vw;
+    border-bottom: 1px solid white;
+}
+
+.btn_vote
+{
+    width: 80vw;
+    height: 45px;
+    margin: 0px 10vw 10vw 10vw;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(245,201,123);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
