@@ -39,6 +39,12 @@ body
     outline:none;
 }
 
+a
+{
+    text-decoration: none;
+}
+
+
 .header
 {
     height: 45px;
@@ -57,8 +63,9 @@ body
 
 .header-text
 {
-    color: white;
+    color: rgb(215, 240, 247);
     font-size: 17px;
+    font-weight: 500;
 }
 
 .header-close
@@ -209,5 +216,9 @@ body
     background-color: rgb(245,201,123);
     text-align: center;
     font-size: 18px;
+}
+
+.btn_vote a
+{
     color: white;
 }

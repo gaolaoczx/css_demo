@@ -39,6 +39,11 @@ body
     outline:none;
 }
 
+a
+{
+    text-decoration: none;
+}
+
 .header
 {
     height: 45px;
@@ -65,18 +70,18 @@ body
 .last-game
 {
     background-color: white;
-    color: rgb(154, 154, 154);
     position: relative;
     height: 60px;
     margin-bottom: 10px;
 }
 
-.last-game p
+.last-game a
 {
     display: inline-block;
     margin: 0px;
     white-space: nowrap;  /*不换行*/
     font-size: 18px;
+    color: rgb(154, 154, 154);
 }
 
 .goback-img
@@ -115,12 +120,16 @@ body
 .version
 {
     background-color: rgb(105, 209, 233);
-    color:rgb(245, 245, 245);
     font-size: 17px;
     height: 70px;
     line-height: 70px;
     text-align: center;
     margin: 10px 0px;
+}
+
+.version a
+{
+    color:rgb(245, 245, 245);
 }
 
 .user-num
