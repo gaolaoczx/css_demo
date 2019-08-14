@@ -193,6 +193,11 @@ a
     background-color: rgb(41, 189, 224);
 }
 
+.btn_a:hover .btn_vote
+{
+    font-size: 20px;
+}
+
 .btn_vote
 {
     width: 80vw;
@@ -203,9 +208,5 @@ a
     background-color: rgb(245,201,123);
     text-align: center;
     font-size: 18px;
-}
-
-.btn_vote a
-{
     color: white;
 }

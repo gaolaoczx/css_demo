@@ -190,6 +190,11 @@ a
     justify-content: space-around;
 }
 
+.footer a:hover button
+{
+    font-size: 20px;
+}
+
 .footer button
 {
     width: 40vw;
@@ -197,6 +202,8 @@ a
     margin: 10px 0;
     border-radius: 5px;
     border: 0px;
+    color: white;
+    font-size: 18px;
 }
 
 .btn_again
@@ -208,13 +215,4 @@ a
 {
     background-color: rgb(251,180,53);
 }
-
-.footer a
-{
-    color: white;
-    font-size: 18px;
-}
-
-
-
 
